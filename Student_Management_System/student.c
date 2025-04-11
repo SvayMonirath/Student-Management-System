@@ -1,7 +1,5 @@
 #include"student.h"
 
-
-
 void addStudent(RECORD student[], int *Student_count) {
     clearScreen();
 

@@ -10,7 +10,6 @@
 // Adding search by name or major.
 
 // Converting to use dynamic memory (with malloc/free).
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
