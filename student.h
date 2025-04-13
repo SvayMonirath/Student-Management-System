@@ -23,6 +23,7 @@ void addStudent(RECORD student[], int *Student_count);
 void displayStudents(RECORD student[], int Student_count);
 void updateStudent(RECORD student[], int Student_count);
 void removeStudent(RECORD student[], int *Student_count);
+int DisplayChoice();
 void clearScreen();
 void pauseScreen();
 

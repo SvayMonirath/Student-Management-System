@@ -43,14 +43,7 @@ int main(void) {
     // Start menu
     do {
         clearScreen();
-        printf("Student Management System: \n");
-        printf("1. Add student record\n");
-        printf("2. Display student records\n");
-        printf("3. Update student record\n");
-        printf("4. Remove student record\n");
-        printf("5. Exit\n");
-        printf("Choose an option: ");
-        scanf("%d", &choice_one);
+        choice_one = DisplayChoice();
 
         switch (choice_one) {
             case 1: 

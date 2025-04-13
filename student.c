@@ -195,6 +195,20 @@ void removeStudent(RECORD student[], int *Student_count) {
     pauseScreen();
 }
 
+int DisplayChoice() {
+        int choice_one;
+        printf("Student Management System: \n");
+        printf("1. Add student record\n");
+        printf("2. Display student records\n");
+        printf("3. Update student record\n");
+        printf("4. Remove student record\n");
+        printf("5. Exit\n");
+        printf("Choose an option: ");
+        scanf("%d", &choice_one);
+
+        return choice_one;
+}
+
 void clearScreen() {
     system("cls");
 }
